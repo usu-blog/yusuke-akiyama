@@ -5,5 +5,15 @@ import { AppProps } from "next/app";
 import "../../public/styles/global.css";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+      <style jsx>{`
+        @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+        body {
+          font-family: "Rubik", sans-serif;
+        }
+      `}</style>
+    </>
+  );
 }

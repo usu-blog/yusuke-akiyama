@@ -24,7 +24,6 @@ export default function Layout({ children }: Props) {
             display: block;
             padding: 4rem 0;
             box-sizing: border-box;
-            height: 100%;
           }
           main {
             display: flex;
