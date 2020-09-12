@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <style jsx>{`
+      <style jsx global>{`
         @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
         body {
           font-family: "Rubik", sans-serif;
