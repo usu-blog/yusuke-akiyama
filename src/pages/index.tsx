@@ -75,12 +75,14 @@ export default function Index() {
                 2017/7 - 2018/12 (1年5ヶ月)
               </p>
               <p className="experience-card__content">
-                Ubuntuのデスクトップ2つ、RasPi 4つ、IoTGateWay 3つを使用して
+                環境: Ubuntuのデスクトップ2つ、RasPi 4つ、IoTGateWay 3つ
+                <br />
+                使用技術/使用言語: C言語, C++, Java, Python, Bash, Node.js,
+                HTML/CSS, PostgreSQL, Node-RED
                 <br />
                 「IoT機器のセキュリティ情報を収集し、管理するシステムの構築」を行いました。
                 <br />
-                技術的には、Linux, C言語, C++, Java, Python, Bash, Node.js,
-                HTML/CSS, PostgreSQLを使用しました。
+                技術的には、を使用しました。
                 <br />
                 Linux初心者というレベルから様々な言語でプログラムを書く経験をさせてもらいWEBの業務もやらせていただきました。
                 <br />
@@ -112,12 +114,97 @@ export default function Index() {
                 2019/2 - 2019/4 (2ヶ月)
               </p>
               <p className="experience-card__content">
-                元々管理画面をLaravelで作って終わる予定でした。
+                使用技術/使用言語: Laravel, HTML/CSS, MySQL
                 <br />
-                しかし既存のサーバーは色々と問題があったので以下のように解決していきました。
+                以下のように問題を解決していきました。
                 <ul>
-                  <li>aa</li>
+                  <li>
+                    文字コードが3種類使用されていたところを1つ(UTF-8)に統一
+                  </li>
+                  <li>
+                    既存に複数の管理ページが存在していたのでログイン画面を作り、管理ページを１つに統一
+                  </li>
+                  <li>
+                    データがテキストファイルで保存されていたのでMySQLを使うように変更
+                  </li>
                 </ul>
+              </p>
+            </div>
+            <div className="experience-card -nest">
+              <h3 className="experience-card__title">プラン選定のシステム</h3>
+              <p className="experience-card__duration">
+                2019/5 - 2019/6 (2ヶ月)
+              </p>
+              <p className="experience-card__content">
+                使用技術/使用言語: HTML/CSS/JavaScript, Pug, Stylus, Docker
+                <br />
+                フロントエンドのみ対応させていただきました。
+                <br />
+                ドラッグアンドドロップの技術が必要だったのでその辺りの良い経験ができました。
+              </p>
+            </div>
+            <div className="experience-card -nest">
+              <h3 className="experience-card__title">管理人の管理システム</h3>
+              <p className="experience-card__duration">
+                2019/7 - 2020/6 (11ヶ月)
+              </p>
+              <p className="experience-card__content">
+                使用技術/使用言語: Nuxt.js, TypeScript, AWS(Cognito, Amplify)
+                <br />
+                フロントエンドのみ対応させていただきました。
+                <br />
+                Nuxt.jsを使ってはいますがSPAにしてサーバーレスの環境で
+                <br />
+                ダッシュボードでデータの確認・変更ができるサイトを作らせていただきました。
+              </p>
+            </div>
+            <div className="experience-card -nest">
+              <h3 className="experience-card__title">
+                デザイナーのギャラリーサイト
+              </h3>
+              <p className="experience-card__duration">
+                2019/11 - 2020/1 (3ヶ月)
+              </p>
+              <p className="experience-card__content">
+                使用技術/使用言語: Nuxt.js, TypeScript, Vue3
+                <br />
+                フロントエンドのみ対応させていただきました。
+                <br />
+                Vue3の書き方がシンプルで良かったのでVue3の書き方Composition
+                APIで記述させていただきました。
+                <br />
+                ダッシュボードでデータの確認・変更ができるサイトを作らせていただきました。
+              </p>
+            </div>
+            <div className="experience-card -nest">
+              <h3 className="experience-card__title">
+                量産コーディングのディレクション
+              </h3>
+              <p className="experience-card__duration">
+                2020/7 - 2020/8 (2ヶ月)
+              </p>
+              <p className="experience-card__content">
+                使用技術/使用言語: HTML
+                <br />
+                ディレクションをさせていただきました。
+                <br />
+                既存サイトのデザイン改修のプロジェクトでしたが仕様が決まり切っておらず作業者は作業しずらく
+                <br />
+                コミュニケーションのコストや管理のコストもかなり高く、良い経験になりました。
+              </p>
+            </div>
+            <div className="experience-card -nest">
+              <h3 className="experience-card__title">
+                センサー情報を見える化する画面の制作
+              </h3>
+              <p className="experience-card__duration">2020/9 - 現在</p>
+              <p className="experience-card__content">
+                使用技術/使用言語: React, TypeScript,
+                Ionic(ハイブリットアプリのフレームワーク)
+                <br />
+                フロントのみ
+                <br />
+                最終的にアプリで表現することも考え、Ionicというフレームワークを使用し、構築しています。
               </p>
             </div>
           </div>
