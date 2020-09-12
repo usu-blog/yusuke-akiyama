@@ -126,8 +126,8 @@ export default function Index() {
       <style jsx>{`
         .skill_wrap {
           width: 100%;
-          max-width: 400px;
-          height: 400px;
+          max-width: 320px;
+          height: 320px;
           margin: 0 auto;
         }
         .profileImage {
@@ -206,7 +206,6 @@ export default function Index() {
           &-card {
             border-radius: 10px;
             padding: 20px;
-            width: 100%;
             max-width: 500px;
             box-shadow: 0 2px 10px rgba(#000, 0.16);
             &:not(:last-of-type) {
